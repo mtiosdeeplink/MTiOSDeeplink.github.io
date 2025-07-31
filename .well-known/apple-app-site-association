@@ -72,6 +72,10 @@
                     {
                         "/": "/digital-offers/*",
                         "comment": "Instore Offer Detail Page"
+                    },
+                    {
+                        "/": "/showcase/*",
+                        "comment": "Product Showcase Details Page"
                     }
                 ]
             },
@@ -92,6 +96,7 @@
                     "/my-account/my-orders/*/view-items",
                     "/instore-coupon/*",
                     "/instore-coupons/*",
+                    "/showcase/*"
                 ]
             }
         ]
