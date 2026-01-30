@@ -1,18 +1,10 @@
 {
-    "activitycontinuation": {
-        "apps": [
-            "55V67PTHK5.com.centralmarket.ecom.qa"
-        ]
-    },
-    "appclips": {
-        "apps": ["55V67PTHK5.com.centralmarket.ecom.qa.Clip"]
-    },
     "applinks": {
         "apps": [],
         "details": [
             {
                 "appIDs": [
-                    "55V67PTHK5.com.centralmarket.ecom.qa"
+                    "92BL3KXYL2.com.mitienda.ecom.qa"
                 ],
                 "components": [
                     {
@@ -28,10 +20,10 @@
                         "comment": "Matches PDP"
                     },
                     {
+                        "/": "/search/*",
                         "?": {
                             "q": "*"
                         },
-                        "/": "/search/*",
                         "comment": "Matches search"
                     },
                     {
@@ -43,10 +35,10 @@
                         "comment": "Matches product category"
                     },
                     {
+                        "/": "/recipes/browse",
                         "?": {
                             "category_isin": "*"
                         },
-                        "/": "/recipes/browse",
                         "comment": "Recipes browse"
                     },
                     {
@@ -62,16 +54,12 @@
                         "comment": "Recipe Details page"
                     },
                     {
-                        "/": "/offers/*",
-                        "comment": "Offer Detail Page"
-                    },
-                    {
                         "/": "/my-account/my-orders/*/view-items",
                         "comment": "Accept Reject Subs items"
                     },
                     {
                         "/": "/digital-offers/*",
-                        "comment": "Instore Offer Detail Page"
+                        "comment": "Digital Offers Page"
                     },
                     {
                         "/": "/showcase/*",
@@ -80,7 +68,7 @@
                 ]
             },
             {
-                "appID": "55V67PTHK5.com.centralmarket.ecom.qa",
+                "appID": "92BL3KXYL2.com.mitienda.ecom.qa",
                 "paths": [
                     "/",
                     "/my-account/buy-again",
@@ -92,13 +80,16 @@
                     "/recipes/saved-recipes",
                     "/recipes/planned-meals",
                     "/recipes/*",
-                    "/offers/*",
                     "/my-account/my-orders/*/view-items",
-                    "/instore-coupon/*",
-                    "/instore-coupons/*",
+                    "/digital-offers/*",
                     "/showcase/*"
                 ]
             }
+        ]
+    },
+    "activitycontinuation": {
+        "apps": [
+            "92BL3KXYL2.com.mitienda.ecom.qa"
         ]
     }
 }
